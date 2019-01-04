@@ -1,0 +1,33 @@
+{
+  "name": "essentials",
+  "version": "1.0.0",
+  "description": "Essential initialization for every JavaScript process",
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "keywords": [
+    "initialization",
+    "process",
+    "promise",
+    "setup",
+    "unhandledrejections"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/essentials.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-medikoo-es3": "^1.1.1"
+  },
+  "eslintConfig": {
+    "extends": "medikoo-es3",
+    "root": true,
+    "globals": {
+      "process": true,
+      "addEventListener": true
+    }
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "license": "ISC"
+}
