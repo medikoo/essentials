@@ -1,3 +1,5 @@
+[![npm version][npm-image]][npm-url]
+
 # essentials
 
 ## Essential initialization for every JavaScript process, ensures that:
@@ -25,3 +27,6 @@ At top of main (entry) module simply require
 ```javascript
 require("essentials");
 ```
+
+[npm-image]: https://img.shields.io/npm/v/essentials.svg
+[npm-url]: https://www.npmjs.com/package/essentials
