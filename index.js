@@ -7,7 +7,8 @@ Error.stackTraceLimit = Infinity;
 if (typeof process === "object" && typeof process.on === "function") {
 	// Node.js
 	process.on("unhandledRejection", function (reason) { throw reason; });
-} else if (typeof addEventListener === "function") {
+}
+if (typeof addEventListener === "function") {
 	// HTML
 	addEventListener("unhandledrejection", function (event) {
 		event.preventDefault();
