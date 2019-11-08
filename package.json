@@ -16,10 +16,10 @@
 	},
 	"devDependencies": {
 		"eslint": "^6.6.0",
-		"eslint-config-medikoo-es3": "^1.1.1"
+		"eslint-config-medikoo": "^2.7.0"
 	},
 	"eslintConfig": {
-		"extends": "medikoo-es3",
+		"extends": "medikoo/es3",
 		"root": true,
 		"globals": {
 			"process": true,
