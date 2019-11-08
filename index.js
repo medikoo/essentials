@@ -4,7 +4,7 @@
 Error.stackTraceLimit = Infinity;
 
 // 2. Expose unhandled promise rejections as uncaught exceptions
-if (typeof process === "object" && typeof process.on === "function") {
+if (typeof process === "object" && process && typeof process.on === "function") {
 	// Node.js
 	process.on("unhandledRejection", function (reason) {
 		// If user attached its own unhandledRejection handler, abort
