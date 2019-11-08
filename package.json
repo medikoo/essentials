@@ -27,7 +27,7 @@
 		}
 	},
 	"scripts": {
-		"lint": "eslint ."
+		"lint": "eslint --ignore-path=.gitignore ."
 	},
 	"license": "ISC"
 }
