@@ -1,6 +1,6 @@
 {
 	"name": "essentials",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"description": "Essential initialization for every JavaScript process",
 	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
 	"keywords": [
