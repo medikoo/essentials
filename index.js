@@ -1,5 +1,14 @@
 "use strict";
 
+var uniGlobal = require("uni-global")("medikoo/essentials/202112");
+
+if (uniGlobal.isSetup) {
+	// Doubled load of essentials, abort
+	return;
+}
+
+uniGlobal.isSetup = true;
+
 // 1. Expose every stack frame in error stack trace
 Error.stackTraceLimit = Infinity;
 
